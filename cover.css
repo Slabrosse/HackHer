@@ -65,6 +65,7 @@ body {
   color: black;
   min-height: 48px;
   background: #ffff;
+  border-radius: 20px;
 }
 .btn-class-eng a:visited,
 .btn-class-eng a:link {
