@@ -1,0 +1,73 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+.cover-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  width: 308px;
+  height: 220px;
+  left: 30px;
+  top: 29px;
+}
+html,
+body {
+  height: 100%;
+  background-color: #B2E4E5;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #000; 
+}
+
+.cover-container {
+    height: 100vh;
+    width: 100%;
+}
+
+.cover-form{
+    margin: auto;
+    width: 370px;
+    padding: 15px;
+    max-width: 100%;
+}
+
+.cover {
+  padding: 0 1.5rem;
+}
+.button{
+    color:black;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-size: 15px;
+  font-weight: 600;
+  color:black;
+  min-height: 48px;
+  background: #ffff;
+
+}
+.btn-class-eng a:visited, .btn-class-eng a:link {
+    color:#0000;
+}
+
+.btn-custom:focus {
+    box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, 0.25);
+  }
+
