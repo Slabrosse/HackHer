@@ -41,6 +41,9 @@
     background: #A5DBCE;
     border-radius: 20px;
 }
+.btn-custom:focus {
+  box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, 0.25);
+}
 
 .navbar {
     background: #b2e4e5;

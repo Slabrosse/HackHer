@@ -61,13 +61,20 @@ body {
   color:black;
   min-height: 48px;
   background: #ffff;
+<<<<<<< Updated upstream
 
+=======
+  border-radius: 20px;
+>>>>>>> Stashed changes
 }
 .btn-class-eng a:visited, .btn-class-eng a:link {
     color:#0000;
 }
 
+<<<<<<< Updated upstream
 .btn-custom:focus {
     box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, 0.25);
   }
+=======
+>>>>>>> Stashed changes
 
