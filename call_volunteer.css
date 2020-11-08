@@ -1,0 +1,40 @@
+
+.img-format{
+    position: absolute;
+width: 416px;
+height: 364px;
+left: calc(50% - 416px/2 - 2.5px);
+top: calc(50% - 364px/2 - 151.5px);
+}
+.btn-top {
+    position: absolute;
+width: 264px;
+height: 57px;
+left: 50px;
+top: 364px;
+
+background: #A5DBCE;
+border-radius: 20px;
+}
+
+.btn-bottom{
+    position: absolute;
+width: 264px;
+height: 57px;
+left: 53px;
+top: 465px;
+
+background: #A5DBCE;
+border-radius: 20px;
+}
+
+.navbar {
+    background: #b2e4e5;
+  }
+  
+  navbar-profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
