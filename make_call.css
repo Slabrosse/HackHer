@@ -7,9 +7,9 @@
 
 .contents-1 {
   position: absolute;
-  width: 50%;
+  width: 75%;
   height: 250px;
-  left: 27%;
+  left: 13%;
   top: 15%;
   opacity: 0.2;
 
@@ -20,11 +20,11 @@
 
 .contents-2 {
   position: absolute;
-  width: 50%;
+  width: 75%;
   height: 250px;
-  left: 27%;
+  left: 13%;
   top: 50%;
-  opacity: 0.2;
+  opacity: 0.4;
 
   background: #75dada;
   border-radius: 10px;
@@ -32,15 +32,15 @@
 
 .prompt {
   position: absolute;
-  left: 43%;
+  left: 35%;
   top: 10%;
 }
 
 .prompt-1 {
   position: absolute;
-  width: 200px;
+  width: 150px;
   height: 36px;
-  left: 28%;
+  left: 15%;
   top: 195px;
   z-index: 2;
 
@@ -51,14 +51,14 @@
 .prompt-1-words {
   position: absolute;
   height: 36px;
-  left: 35%;
+  left: 25%;
   top: 200px;
   z-index: 2;
 }
 
 .prompt-2 {
   position: absolute;
-  width: 200px;
+  width: 150px;
   height: 36px;
   left: 55%;
   top: 195px;
@@ -71,34 +71,34 @@
 .prompt-2-words {
   position: absolute;
   height: 36px;
-  left: 60%;
+  left: 62%;
   top: 200px;
   z-index: 2;
 }
 
 .prompt-3 {
   position: absolute;
-  width: 200px;
+  width: 150px;
   height: 36px;
-  left: 28%;
+  left: 15%;
   top: 295px;
   z-index: 2;
 
-  background: #b6f7e7;
+  background: #689e91;
   border-radius: 20px;
 }
 
 .prompt-3-words {
   position: absolute;
   height: 36px;
-  left: 35%;
+  left: 25%;
   top: 300px;
   z-index: 2;
 }
 
 .prompt-4 {
   position: absolute;
-  width: 200px;
+  width: 150px;
   height: 36px;
   left: 55%;
   top: 295px;
@@ -111,14 +111,14 @@
 .prompt-4-words {
   position: absolute;
   height: 36px;
-  left: 60%;
+  left: 61%;
   top: 300px;
   z-index: 2;
 }
 
 .phrases {
   position: absolute;
-  left: 43%;
+  left: 35%;
   top: 45%;
 }
 
@@ -126,7 +126,7 @@
   position: absolute;
   width: 280px;
   height: 36px;
-  left: 38%;
+  left: 22%;
   top: 55%;
 
   background: #e2c0fe;
@@ -137,7 +137,7 @@
   position: absolute;
   width: 280px;
   height: 36px;
-  left: 39%;
+  left: 25%;
   top: 56%;
 }
 
@@ -145,7 +145,7 @@
   position: absolute;
   width: 280px;
   height: 36px;
-  left: 38%;
+  left: 22%;
   top: 63%;
 
   background: rgba(200, 166, 255, 0.8);
@@ -156,15 +156,15 @@
   position: absolute;
   width: 280px;
   height: 36px;
-  left: 40%;
+  left: 30%;
   top: 64%;
 }
 
 .phrase-3 {
   position: absolute;
-  width: 266px;
+  width: 280px;
   height: 36px;
-  left: 38%;
+  left: 22%;
   top: 70%;
 
   background: rgba(169, 141, 249, 100%);
@@ -175,7 +175,7 @@
   position: absolute;
   width: 280px;
   height: 36px;
-  left: 40%;
+  left: 30%;
   top: 71%;
 }
 
@@ -184,7 +184,7 @@
   height: 57px;
   align-self: center;
   top: 80%;
-  left: 38%;
+  left: 22%;
   position: absolute;
   font-weight: bold;
 
