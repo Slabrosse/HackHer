@@ -1,114 +1,111 @@
 @import url("https://fonts.googleapis.com/css?family=GothicA1:100,200,300,400,500,600,700,800,900");
 
 .head {
-    position: absolute;
-    width: 386px;
-    height: 51px;
-    left: 0px;
-    top: 0px;
-    background: #B2E4E5;
+  position: absolute;
+  width: 386px;
+  height: 51px;
+  left: 0px;
+  top: 0px;
+  background: #b2e4e5;
 }
-.header{
-    position: flex;
-    display:flex;
-    width: 100%;
-    height: 37px;
-    top: 0px;
-    background: #C1E4E5;
-}
-
-.incoming{
-    position: absolute;
-    width: 236px;
-    height: 38px;
-    left: calc(50% - 236px/2 - 20px);
-    top: 72px;
+.header {
+  position: flex;
+  display: flex;
+  width: 100%;
+  height: 37px;
+  top: 0px;
+  background: #c1e4e5;
 }
 
-.incoming-font{
-    font-family: Gothic A1;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 32px;
-    display: flex;
-    align-items: flex-end;
+.incoming {
+  position: absolute;
+  width: 236px;
+  height: 38px;
+  left: calc(50% - 236px / 2 - 20px);
+  top: 72px;
 }
 
-.name-button{
-    background: #75DADA;
-    border-radius: 20px; 
-    display: flex;
-    align-items: flex-end;  /*need to fix text padding here (not centered) and add image*/
+.incoming-font {
+  font-family: Gothic A1;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-end;
 }
 
-.jenny-button{
-    position: absolute;
-    width: 307px;
-    height: 58px;
-    left: 40px;
-    top: 115px; 
-    
-}
-.sam-button{
-    position: absolute;
-    width: 307px;
-    height: 58px;
-    left: 40px;
-    top: 180px;
-}
-.olivia-button{
-    position: absolute;
-    width: 307px;
-    height: 58px;
-    left: 40px;
-    top: 245px;
+.name-button {
+  background: #75dada;
+  border-radius: 20px;
 }
 
-.call-info{
-    position: absolute;
-    width: 267px;
-    height: 66px;
-    left: calc(50% - 236px/2 - 20px);
-    top: 400px;
+.jenny-button {
+  position: absolute;
+  width: 307px;
+  height: 58px;
+  left: 80px;
+  top: 115px;
 }
-.call-info-font{
-    font-family: Gothic A1;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 45px;
-    display: flex;
-    align-items: flex-end;
-    
+.sam-button {
+  position: absolute;
+  width: 307px;
+  height: 58px;
+  left: 80px;
+  top: 180px;
+}
+.olivia-button {
+  position: absolute;
+  width: 307px;
+  height: 58px;
+  left: 80px;
+  top: 245px;
+}
+
+.call-info {
+  position: absolute;
+  width: 267px;
+  height: 66px;
+  left: calc(50% - 236px / 2 - 20px);
+  top: 400px;
+}
+.call-info-font {
+  font-family: Gothic A1;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 45px;
+  display: flex;
+  align-items: flex-end;
 }
 .btn-top {
-    position: absolute;
-    width: 264px;
-    height: 57px;
-    left: calc(50% - 264px/2 - 2.5px);
-    top: 470px;
-    margin:auto;
-    background: #A5DBCE;
-    border-radius: 20px;
+  position: absolute;
+  width: 264px;
+  height: 57px;
+  left: calc(50% - 264px / 2 - 2.5px);
+  top: 470px;
+  margin: auto;
+  background: #a5dbce;
+  border-radius: 20px;
 }
 
-.btn-bottom{
-    position: absolute;
-    width: 264px;
-    height: 57px;
-    left: calc(50% - 264px/2 - 2.5px);
-    top: 550px;
+.btn-bottom {
+  position: absolute;
+  width: 264px;
+  height: 57px;
+  left: calc(50% - 264px / 2 - 2.5px);
+  top: 550px;
 
-    background: #A5DBCE;
-    border-radius: 20px;
+  background: #a5dbce;
+  border-radius: 20px;
 }
 
 .navbar {
-    background: #b2e4e5;
-    display: flex;
-    justify-content: space-between;
-  }
+  background: #b2e4e5;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 70px;
+}
 
 navbar-profile {
   display: block;
@@ -116,4 +113,3 @@ navbar-profile {
   margin-right: auto;
   width: 50%;
 }
-

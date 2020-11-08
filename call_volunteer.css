@@ -15,10 +15,8 @@
 }
 .img-format {
   position: absolute;
-  width: 416px;
-  height: 364px;
-  left: calc(50% - 416px / 2 - 2.5px);
-  top: 29px;
+  left: calc(50% - 490px / 2 - 2.5px);
+  top: 0px;
 }
 .btn-top {
   position: absolute;
