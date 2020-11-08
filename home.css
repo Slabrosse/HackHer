@@ -1,0 +1,10 @@
+.navbar {
+  background: #b2e4e5;
+}
+
+navbar-profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
