@@ -14,9 +14,9 @@
 .contents-1 {
   position: absolute;
   width: 75%;
-  height: 200px;
+  height: 150px;
   left: 13%;
-  top: 15%;
+  top: 30%;
   opacity: 0.2;
 
   background: #75dada;
@@ -27,19 +27,46 @@
 .contents-2 {
   position: absolute;
   width: 75%;
-  height: 200px;
+  height: 150px;
   left: 13%;
-  top: 52%;
+  top: 57%;
   opacity: 0.1;
 
   background: #75dada;
   border-radius: 10px;
 }
 
+.contents-3 {
+  position: absolute;
+  width: 75%;
+  height: 100px;
+  left: 13%;
+  top: 10%;
+
+  background: #a5dbce;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.talking_to {
+  position: absolute;
+  left: 15%;
+  top: 85px;
+  z-index: 2;
+}
+
+.time_elapsed {
+  position: absolute;
+  left: 16%;
+  top: 18%;
+  z-index: 2;
+  font-weight: 300;
+}
+
 .prompt {
   position: absolute;
   left: 35%;
-  top: 10%;
+  top: 25%;
 }
 
 .prompt-1 {
@@ -47,7 +74,7 @@
   width: 150px;
   height: 36px;
   left: 15%;
-  top: 150px;
+  top: 250px;
   z-index: 2;
 
   background-color: #94dfe9;
@@ -58,7 +85,7 @@
   position: absolute;
   height: 36px;
   left: 25%;
-  top: 155px;
+  top: 255px;
   z-index: 2;
   color: #439bae;
   font-weight: 200;
@@ -69,7 +96,7 @@
   width: 150px;
   height: 36px;
   left: 55%;
-  top: 150px;
+  top: 250px;
   z-index: 2;
 
   background: #cdeafa;
@@ -80,7 +107,7 @@
   position: absolute;
   height: 36px;
   left: 62%;
-  top: 155px;
+  top: 255px;
   z-index: 2;
   color: #677dcb;
   font-weight: 200;
@@ -91,7 +118,7 @@
   width: 150px;
   height: 36px;
   left: 15%;
-  top: 235px;
+  top: 315px;
   z-index: 2;
 
   background: #b6f6e7;
@@ -102,7 +129,7 @@
   position: absolute;
   height: 36px;
   left: 25%;
-  top: 240px;
+  top: 320px;
   z-index: 2;
   color: #2c708d;
   font-weight: 200;
@@ -113,7 +140,7 @@
   width: 150px;
   height: 36px;
   left: 55%;
-  top: 235px;
+  top: 315px;
   z-index: 2;
 
   background: #599cc9;
@@ -124,7 +151,7 @@
   position: absolute;
   height: 36px;
   left: 61%;
-  top: 240px;
+  top: 320px;
   z-index: 2;
   color: #285a7d;
   font-weight: 200;
@@ -133,7 +160,7 @@
 .phrases {
   position: absolute;
   left: 35%;
-  top: 45%;
+  top: 52%;
 }
 
 .phrase-1 {
@@ -141,7 +168,7 @@
   width: 280px;
   height: 36px;
   left: 22%;
-  top: 55%;
+  top: 59%;
 
   background: #e2c0fe;
   border-radius: 20px;
@@ -152,7 +179,7 @@
   width: 280px;
   height: 36px;
   left: 25%;
-  top: 56%;
+  top: 60%;
   color: #3a575e;
   font-weight: 200;
 }
@@ -162,7 +189,7 @@
   width: 280px;
   height: 36px;
   left: 22%;
-  top: 63%;
+  top: 65%;
 
   background: rgba(200, 166, 255, 0.8);
   border-radius: 20px;
@@ -173,7 +200,7 @@
   width: 280px;
   height: 36px;
   left: 30%;
-  top: 64%;
+  top: 66%;
   color: #3a575e;
   font-weight: 200;
 }
@@ -183,7 +210,7 @@
   width: 280px;
   height: 36px;
   left: 22%;
-  top: 70%;
+  top: 71%;
 
   background: rgba(169, 141, 249, 100%);
   border-radius: 20px;
@@ -194,7 +221,7 @@
   width: 280px;
   height: 36px;
   left: 30%;
-  top: 71%;
+  top: 72%;
   color: #3a575e;
   font-weight: 200;
 }
@@ -216,7 +243,7 @@
   width: 264px;
   height: 57px;
   align-self: center;
-  top: 80%;
+  top: 75%;
   position: absolute;
   font-weight: bold;
   border-radius: 20px;
