@@ -1,0 +1,199 @@
+.navbar {
+  background: #b2e4e5;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contents-1 {
+  position: absolute;
+  width: 75%;
+  height: 250px;
+  left: 13%;
+  top: 15%;
+  opacity: 0.2;
+
+  background: #75dada;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.contents-2 {
+  position: absolute;
+  width: 75%;
+  height: 250px;
+  left: 13%;
+  top: 50%;
+  opacity: 0.4;
+
+  background: #75dada;
+  border-radius: 10px;
+}
+
+.prompt {
+  position: absolute;
+  left: 35%;
+  top: 10%;
+}
+
+.prompt-1 {
+  position: absolute;
+  width: 150px;
+  height: 36px;
+  left: 15%;
+  top: 195px;
+  z-index: 2;
+
+  background-color: #94dfe9;
+  border-radius: 20px;
+}
+
+.prompt-1-words {
+  position: absolute;
+  height: 36px;
+  left: 25%;
+  top: 200px;
+  z-index: 2;
+}
+
+.prompt-2 {
+  position: absolute;
+  width: 150px;
+  height: 36px;
+  left: 55%;
+  top: 195px;
+  z-index: 2;
+
+  background: #cdeafa;
+  border-radius: 20px;
+}
+
+.prompt-2-words {
+  position: absolute;
+  height: 36px;
+  left: 62%;
+  top: 200px;
+  z-index: 2;
+}
+
+.prompt-3 {
+  position: absolute;
+  width: 150px;
+  height: 36px;
+  left: 15%;
+  top: 295px;
+  z-index: 2;
+
+  background: #689e91;
+  border-radius: 20px;
+}
+
+.prompt-3-words {
+  position: absolute;
+  height: 36px;
+  left: 25%;
+  top: 300px;
+  z-index: 2;
+}
+
+.prompt-4 {
+  position: absolute;
+  width: 150px;
+  height: 36px;
+  left: 55%;
+  top: 295px;
+  z-index: 2;
+
+  background: #599cc9;
+  border-radius: 20px;
+}
+
+.prompt-4-words {
+  position: absolute;
+  height: 36px;
+  left: 61%;
+  top: 300px;
+  z-index: 2;
+}
+
+.phrases {
+  position: absolute;
+  left: 35%;
+  top: 45%;
+}
+
+.phrase-1 {
+  position: absolute;
+  width: 280px;
+  height: 36px;
+  left: 22%;
+  top: 55%;
+
+  background: #e2c0fe;
+  border-radius: 20px;
+}
+
+.phrase-1-words {
+  position: absolute;
+  width: 280px;
+  height: 36px;
+  left: 25%;
+  top: 56%;
+}
+
+.phrase-2 {
+  position: absolute;
+  width: 280px;
+  height: 36px;
+  left: 22%;
+  top: 63%;
+
+  background: rgba(200, 166, 255, 0.8);
+  border-radius: 20px;
+}
+
+.phrase-2-words {
+  position: absolute;
+  width: 280px;
+  height: 36px;
+  left: 30%;
+  top: 64%;
+}
+
+.phrase-3 {
+  position: absolute;
+  width: 280px;
+  height: 36px;
+  left: 22%;
+  top: 70%;
+
+  background: rgba(169, 141, 249, 100%);
+  border-radius: 20px;
+}
+
+.phrase-3-words {
+  position: absolute;
+  width: 280px;
+  height: 36px;
+  left: 30%;
+  top: 71%;
+}
+
+.btn-bottom {
+  width: 264px;
+  height: 57px;
+  align-self: center;
+  top: 80%;
+  left: 22%;
+  position: absolute;
+  font-weight: bold;
+
+  background: #b2dbca;
+  border-radius: 20px;
+}
+
+.top-navbar {
+  background: #b2e4e5;
+  height: 60px;
+  width: 100%;
+}
