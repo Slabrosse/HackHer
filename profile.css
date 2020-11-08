@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=GothicA1:100,200,300,400,500,600,700,800,900");
+
+.head {
+    position: absolute;
+    width: 386px;
+    height: 51px;
+    left: 0px;
+    top: 0px;
+    background: #B2E4E5;
+}
+
+.profile{
+    padding: 0 1.5rem;
+}
+
+.setting{
+    position: absolute;
+    left: 314px;
+    top: 13px; 
+}
+.img{
+    position: absolute;
+    left: calc(50% - 329px/2);
+    top: 120px;
+    border-radius: 20px;
+
+}
+.general-location{
+    position: relative;
+    width: 246px;
+    height: 40px;
+    left: calc(50% - 246px/2);
+    top: 35px;
+
+    font-family: Gothic A1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+}
+
+.talking-prompt{
+    position: relative;
+    width: 246px;
+    height: 23px;
+    left: calc(50% - 246px/2);
+    top: 310px;
+
+    font-family: Gothic A1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+}
+.key-phrases{
+    position: absolute;
+    width: 246px;
+    height: 29px;
+    left: calc(50% - 246px/2);
+    top: 500px;
+
+    font-family: Gothic A1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-end;
+
+color: #000000;
+}
+
+.button-1{
+    position: absolute;
+    width: 226px;
+    height: 54px;
+    left: calc(50% - 226px/2 - 2.5px);
+    top: 294px;
+
+background: #A5DBCE;
+border-radius: 20px;
+}
+
+.button-2{
+    position: absolute;
+    width: 226px;
+    height: 54px;
+    left: calc(50% - 226px/2 - 2.5px);
+    top: 405px;
+
+background: #A5DBCE;
+border-radius: 20px;
+}
+
+.button-3{
+    position: absolute;
+    width: 226px;
+    height: 54px;
+    left: calc(50% - 226px/2 - 2.5px);
+    top: 514px;
+
+    background: #A5DBCE;
+    border-radius: 20px;
+}
+
+.header{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    background: #B2E4E5;
+}
+.navbar {
+    background: #b2e4e5;
+    display: flex;
+    justify-content: space-between;
+  }
+
+navbar-profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
