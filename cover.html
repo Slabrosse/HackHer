@@ -8,22 +8,24 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <link rel="icon" href="../../../../favicon.ico" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="home.css" />
+    <link rel="icon" href="../../../../favicon.ico" />
 
-    <title>Bottom navbar example for Bootstrap</title>
+    <title>Cover Page</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet" />
   </head>
 
-  <body class="home">
+  <body class="text-center">
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -40,34 +42,38 @@
       crossorigin="anonymous"
     ></script>
 
-    <div class="home-text">
-      <h1 class="hello-user">
-        Hello
-        <span class="username">Sarah!</span>
-      </h1>
-      <h4 class="phrase">this week you have contributed:</h4>
-      <h5 class="calls">calls</h5>
-      <img class="img_call" src="img/call-minutes.png" />
-      <h5 class="volunteer">volunteer</h5>
-      <img class="img_vol" src="img/volunteer-minutes.png" />
-    </div>
+    <div
+      class="cover-container cover-form d-flex h-100 p-3 mx-auto flex-column"
+    >
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading" style="text-align: left">
+          Let's start walking home safe together.
+        </h1>
+        <img
+          class="cover-img"
+          src="img/welcome.png"
+          alt="Welcome"
+          width="166px"
+          height="189px"
+          margin="40px"
+        />
 
-    <nav class="fixed-bottom navbar-expand-sm navbar">
-      <a class="navbar-home" href="home.html"><img src="img/home.png" /></a>
-      <button class="navbar-toggler" type="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-call" href="login.html"><img src="img/call.png" /></a>
-      <button class="navbar-toggler" type="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-profile" href="login.html"
-        ><img src="img/profile.png"
-      /></a>
-      <button class="navbar-toggler" type="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </nav>
+        <a href="login.html">
+          <button
+            class="btn mt-3 rounded-pill btn-lg btn-custom btn-block"
+            type="submit"
+          >
+            Log in
+          </button></a
+        >
+        <button
+          type="submit"
+          class="btn mt-3 rounded-pill btn-lg btn-custom btn-block"
+        >
+          Register
+        </button>
+      </main>
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
