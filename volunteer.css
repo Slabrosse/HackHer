@@ -24,6 +24,7 @@
     left: calc(50% - 236px/2 - 20px);
     top: 72px;
 }
+
 .incoming-font{
     font-family: Gothic A1;
     font-style: normal;
@@ -33,9 +34,12 @@
     display: flex;
     align-items: flex-end;
 }
+
 .name-button{
     background: #75DADA;
-    border-radius: 20px;  
+    border-radius: 20px; 
+    display: flex;
+    align-items: flex-end; 
 }
 
 .jenny-button{
@@ -44,6 +48,7 @@
     height: 58px;
     left: 40px;
     top: 115px; 
+    
 }
 .sam-button{
     position: absolute;
@@ -75,6 +80,7 @@
     line-height: 45px;
     display: flex;
     align-items: flex-end;
+    
 }
 .btn-top {
     position: absolute;
