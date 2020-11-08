@@ -39,7 +39,7 @@
     background: #75DADA;
     border-radius: 20px; 
     display: flex;
-    align-items: flex-end; 
+    align-items: flex-end;  /*need to fix text padding here (not centered) and add image*/
 }
 
 .jenny-button{
