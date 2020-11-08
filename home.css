@@ -1,10 +1,30 @@
 .navbar {
   background: #b2e4e5;
+  display: flex;
+  justify-content: space-between;
 }
 
-navbar-profile {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.username {
+  color: #99a4cc;
+}
+
+.hello-user {
+  margin: 80px;
+}
+
+.phrase {
+  color: #99a4cc;
+  margin: 30px;
+}
+
+.home-text {
+  text-align: center;
+}
+
+.calls {
+  color: #44d2db;
+}
+
+.volunteer {
+  color: #44db6f;
 }
